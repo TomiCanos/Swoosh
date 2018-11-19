@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeScreenViewController.swift
 //  Swoosh
 //
 //  Created by Tomi on 19/11/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
