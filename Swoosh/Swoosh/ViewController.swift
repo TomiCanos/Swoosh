@@ -1,5 +1,5 @@
 //
-//  WelcomeScreenViewController.swift
+//  ViewController.swift
 //  Swoosh
 //
 //  Created by Tomi on 19/11/2018.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class WelcomeScreenViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func unwindFromDesiredLeagueViewController (unwindSegue: UIStoryboardSegue) {
+        
+    }
+    
 }
 
