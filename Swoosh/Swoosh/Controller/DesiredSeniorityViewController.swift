@@ -9,22 +9,31 @@
 import UIKit
 
 class DesiredSeniorityViewController: UIViewController {
+    
+    var player: Player!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func begginerButtonPress(_ sender: Any) {
+        selectSeniorityAndPerformSelectionShowerSegue(seniority: "begginer")
     }
-    */
-
+    
+    @IBAction func ballerButtonPress(_ sender: Any) {
+        selectSeniorityAndPerformSelectionShowerSegue(seniority: "baller")
+    }
+    
+    @IBAction func unwindFromSelectionShoweViewController (unwindSegue: UIStoryboardSegue){}
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let selectionShowerViewController = segue.destination as? SelectionShowerViewController{
+            selectionShowerViewController.player = player
+        }
+    }
+    
+    func selectSeniorityAndPerformSelectionShowerSegue(seniority: String) {
+        player.desiredSeniority = seniority
+        performSegue(withIdentifier: "SelectionShowerSegue", sender: self)
+    }
 }

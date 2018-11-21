@@ -15,6 +15,8 @@
 		840623D621A34D5900711FB4 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840623D521A34D5900711FB4 /* BorderedButton.swift */; };
 		840623DA21A3BCC400711FB4 /* DesiredLeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840623D921A3BCC400711FB4 /* DesiredLeagueViewController.swift */; };
 		840623DE21A3C0FB00711FB4 /* DesiredSeniorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840623DD21A3C0FB00711FB4 /* DesiredSeniorityViewController.swift */; };
+		8482EE9521A4707E0097B0D9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482EE9421A4707E0097B0D9 /* Player.swift */; };
+		8482EE9921A4843B0097B0D9 /* SelectionShowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482EE9821A4843B0097B0D9 /* SelectionShowerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		840623D521A34D5900711FB4 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		840623D921A3BCC400711FB4 /* DesiredLeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiredLeagueViewController.swift; sourceTree = "<group>"; };
 		840623DD21A3C0FB00711FB4 /* DesiredSeniorityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesiredSeniorityViewController.swift; sourceTree = "<group>"; };
+		8482EE9421A4707E0097B0D9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8482EE9821A4843B0097B0D9 /* SelectionShowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionShowerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		840623DB21A3C07C00711FB4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8482EE9421A4707E0097B0D9 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				840623C421A3464500711FB4 /* WelcomeViewController.swift */,
 				840623D921A3BCC400711FB4 /* DesiredLeagueViewController.swift */,
 				840623DD21A3C0FB00711FB4 /* DesiredSeniorityViewController.swift */,
+				8482EE9821A4843B0097B0D9 /* SelectionShowerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,7 +177,9 @@
 				840623C521A3464500711FB4 /* WelcomeViewController.swift in Sources */,
 				840623C321A3464500711FB4 /* AppDelegate.swift in Sources */,
 				840623DE21A3C0FB00711FB4 /* DesiredSeniorityViewController.swift in Sources */,
+				8482EE9921A4843B0097B0D9 /* SelectionShowerViewController.swift in Sources */,
 				840623DA21A3BCC400711FB4 /* DesiredLeagueViewController.swift in Sources */,
+				8482EE9521A4707E0097B0D9 /* Player.swift in Sources */,
 				840623D621A34D5900711FB4 /* BorderedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

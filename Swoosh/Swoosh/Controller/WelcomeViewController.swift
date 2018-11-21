@@ -10,14 +10,12 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    override func viewDidLoad() {super.viewDidLoad()}
 
-    @IBAction func unwindFromDesiredLeagueViewController (unwindSegue: UIStoryboardSegue) {
-        
-    }
+    @IBAction func unwindFromDesiredLeagueViewController (unwindSegue: UIStoryboardSegue) {}
     
+    @IBAction func getStartedButtonPress(_ sender: Any) {
+        performSegue(withIdentifier: "DesiredLeagueSegue", sender: self)
+    }
 }
 
